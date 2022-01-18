@@ -40,9 +40,9 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/bean.png
-  medium: /images/bean.png
-  apple_touch_icon: /images/bean.png
+  small: /images/bean.svg
+  medium: /images/bean.svg
+  apple_touch_icon: /images/bean.svg
   safari_pinned_tab: /images/bean.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
@@ -118,8 +118,8 @@ darkmode: false
 menu:
   home: / || home
   #about: /about/ || fa fa-user
-  tags: /tags/ || tags
-  categories: /categories/ || th
+  #tags: /tags/ || tags
+  #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
