@@ -1,7 +1,8 @@
 ---
 title: RQAlpha Quant开源框架
 date: 2022-01-19 11:25:09
-tags:
+categoies: 量化技术
+tags: RQAlpha
 ---
 
 # 概要
