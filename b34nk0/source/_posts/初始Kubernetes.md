@@ -1,7 +1,7 @@
 ---
 title: 初始Kubernetes
 date: 2022-01-26 09:55:40
-categoies: 运维
+categories: 运维
 tags: kebernetes
 ---
 
