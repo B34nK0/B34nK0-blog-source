@@ -25,7 +25,7 @@ QuantLib 所提供的功能聚焦在两大领域：
 ![](JNI包.png)
 
 * 打开提供的Example项目
-![](Example.png)
+![](Example项目.png)
 
 * IDEA导入JNI及Dll：  File -> Project Struct -> Libraries -> Java
 ![](选择ProjectStruct.png)
