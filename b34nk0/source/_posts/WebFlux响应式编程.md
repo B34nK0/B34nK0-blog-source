@@ -88,9 +88,6 @@ pom引入webflux依赖
 
 相比于SpringMvc同步阻塞，WebFlux返回的是Mono，这也正是WebFlux的优势可以固定线程，而不需要每个请求都新开线程造成线程开销。
 
-* 如果适用WebFlux那么即不能引入spring-boot-starter-web
-
-
 ## WebClient
 生产中，我们使用WebClient来发送异步请求，并支持响应式编程。
 
