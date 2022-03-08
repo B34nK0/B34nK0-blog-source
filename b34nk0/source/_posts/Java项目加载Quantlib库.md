@@ -17,7 +17,7 @@ QuantLib 所提供的功能聚焦在两大领域：
 
 <!--more-->  
 
-因为Quantlib是c++编写的，而为了面向多语言场景，坐着采用SWIG方式进行了封装，提供给Java、Python、CSharp等语言使用
+因为Quantlib是c++编写的，而为了面向多语言场景，作者采用SWIG方式进行了封装，提供给Java、Python、CSharp等语言使用
 
 本章主要讲解如何配置IDEA，让Java项目加载Quantlib提供的JNI包, JNI包下载（http://www.bnikolic.co.uk/ql/java.html）
 
