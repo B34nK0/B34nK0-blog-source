@@ -2,7 +2,7 @@
 title: 该如何查找C/C++程序中的bug
 date: 2022-02-11 09:54:24
 categories: 编程语言
-tags: Rust
+tags: C++
 ---
 
 # 概要
