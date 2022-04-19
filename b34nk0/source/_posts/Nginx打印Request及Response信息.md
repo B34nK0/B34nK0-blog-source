@@ -8,6 +8,9 @@ tags: Nginx
 场景：
 生产过程中，使用Nginx做反向代理转发请求到第三方网关时，因为请求出错，所以需要在nginx 打印请求的信息。
 
+
+<!--more-->
+
 # 配置Nginx 日志格式
 
 使用lua脚本需要nginx配置了lua，或者使用openresty取代nginx

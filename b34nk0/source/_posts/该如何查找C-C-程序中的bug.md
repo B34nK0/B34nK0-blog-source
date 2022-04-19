@@ -9,6 +9,8 @@ tags: C++
 
 本章讲解如何使用工具来分析 C/C++ 程序中的bug
 
+<!--more-->
+
 # 动态分析 dynamic analysis
 
 ## 分析工具： Valgrind
