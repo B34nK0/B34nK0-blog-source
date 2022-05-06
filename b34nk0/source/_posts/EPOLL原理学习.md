@@ -12,7 +12,7 @@ et模式，是当发生事件时进行一次通知，epool_wait获取该次事�
 LT（level Triggered）水平触发模式，支持非阻塞Socket及阻塞Socket，当一个文件句柄准备就绪时，内核会通知用户进行io操作，如果不进行任何操作时，内核还是会继续通知用户关于该句柄的事件。
 通过epoll_wait获取到事件后，如果不处理完缓冲区数据，继续使用epoll_wait
 
-epol会将用户空间与内核空间采用mmap技术映射为同一内存，减少内存拷贝
+epoll会将用户空间与内核空间采用mmap技术映射为同一内存，减少内存拷贝
 
 epoll相比于select/poll，在于epoll通过epoll_create创建时，内核开始准备存储句柄的空间，通过epoll_add添加句柄后，在epoll_wait开始等待事件通知，而select/poll每次都需要将句柄列表拷贝给内核。
 
